@@ -413,7 +413,6 @@ aside#boton-whatsapp i { font-size: 60px;}
         margin-left: 0px;
         margin-right: 10px;
     }
-    
     div.Footer div.parrafo1p img{
       width: 130px;
       height: 85%;
@@ -425,11 +424,11 @@ aside#boton-whatsapp i { font-size: 60px;}
     }
     
     div.Footer div.parrafo2p p.parrafo2{
-        margin-left: 750px; 
+        margin-left: 570px; 
         margin-bottom: 20px;
     }
     div.Servicio2 ul{
-        margin-left: 450px;
+        margin-left: 550px;
     }
     div.Servicio2 h1{
         padding-left: 450px;
@@ -464,11 +463,15 @@ aside#boton-whatsapp i { font-size: 60px;}
     }
 
     div.Servicio6 h1{
-        padding-left: 320px;
+        padding-left: 380px;
     }
 
     div.Servicio6 ul{
-        margin-left: 300px;
+        margin-left: 350px;
+    }
+
+    div.Servicio6 img{
+        margin-left: 150px;
     }
 
     div.Servicio6 img{
