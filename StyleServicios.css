@@ -408,11 +408,12 @@ aside#boton-whatsapp a:hover { background: #0fc3d09f; transition: all 0.3s ease-
 aside#boton-whatsapp i { font-size: 60px;}
 
 /* Estilos para pantallas medianas (entre 1200px y 1600px de ancho) */
-@media (min-width: 1200px) and (max-width: 1300px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
     header#shadow ul {
         margin-left: 0px;
         margin-right: 10px;
     }
+    
     div.Footer div.parrafo1p img{
       width: 130px;
       height: 85%;
@@ -424,7 +425,7 @@ aside#boton-whatsapp i { font-size: 60px;}
     }
     
     div.Footer div.parrafo2p p.parrafo2{
-        margin-left: 570px; 
+        margin-left: 750px; 
         margin-bottom: 20px;
     }
     div.Servicio2 ul{
