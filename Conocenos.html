@@ -72,27 +72,49 @@
 
   @media (min-width: 1200px) and (max-width: 1300px) {
     header#shadow ul {
-        margin-left: 0px;
-        margin-right: 10px;
-    }
+    margin-left: 0px;
+    margin-right: 10px;
+}
 
-    div.Clientes a{
-        margin-left: 500px;
-        }
+div.Footer div.parrafo1p img{
+  width: 130px;
+  height: 85%;
+}
 
-    div.Footer div.parrafo1p img{
-        height: 85%;
-    }
+div.Footer div.parrafo1p p.parrafo1{
+  margin-left: 350px;
+  margin-top: -95px;
+}
 
-    div.Footer div.parrafo1p p.parrafo1{
-        margin-left: 320px;
-        margin-top: -95px;
-    }
+div.Footer div.parrafo2p p.parrafo2{
+    margin-left: 750px; 
+    margin-bottom: 20px;
+}
+}
 
-    div.Footer div.parrafo2p p.parrafo2{
-        margin-left: 750px; 
-        margin-bottom: 20px;
-    }
+/* Estilos para pantallas pequeñas (entre 800px y 1200px de ancho) */
+@media (min-width: 800px) and (max-width: 1199px) {
+  header#shadow ul {
+      margin-left: 0px;
+      margin-right: 200px;
+  }
+  div.Footer div.parrafo1p p.parrafo1{
+    margin-left: 300px;
+    margin-top: -80px;
+  }
+  
+  div.Footer div.parrafo2p p.parrafo2{
+      margin-left: 700px; 
+      margin-bottom: 10px;
+  }
+}
+
+/* Estilos para pantallas muy pequeñas (menos de 800px de ancho) */
+@media (max-width: 799px) {
+  header#shadow ul {
+      margin-left: 0;
+      flex-direction: column;
+  }
 }
       </style>
   </head>
