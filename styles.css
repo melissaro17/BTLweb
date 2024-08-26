@@ -216,11 +216,7 @@ aside#boton-whatsapp a:hover { background: #0fc3d09f; transition: all 0.3s ease-
 aside#boton-whatsapp i { font-size: 60px;}
 
 /* Estilos para pantallas medianas (entre 1200px y 1600px de ancho) */
-@media (min-width: 1200px) and (max-width: 1300px) {
-    body {
-        font-size: 16px;
-    }
-
+@media (min-width: 1200px) and (max-width: 1500px) {
     div.Servicios{
         background-image: url(BANNERIniciox900.png);
     }
@@ -231,83 +227,53 @@ aside#boton-whatsapp i { font-size: 60px;}
         }
 
     div.Conocenos a{
-        margin-left: 1000px;
-        }
+    margin-left: 1000px;
+    }
 
     header ul {
         margin-left: 0px;
         margin-right: 10px;
     }
-
-    div.Clientes a{
-        margin-left: 500px;
-        }
-
     div.Footer div.parrafo1p img{
-        height: 85%;
+      width: 130px;
+      height: 85%;
     }
-
+    
     div.Footer div.parrafo1p p.parrafo1{
-        margin-left: 320px;
-        margin-top: -95px;
+      margin-left: 350px;
+      margin-top: -95px;
     }
-
+    
     div.Footer div.parrafo2p p.parrafo2{
         margin-left: 750px; 
         margin-bottom: 20px;
     }
+    div.Clientes a{
+        margin-left: 500px;
+        }
+
 }
 /* Estilos para pantallas pequeñas (entre 800px y 1200px de ancho) */
 @media (min-width: 800px) and (max-width: 1199px) {
-    body {
-        font-size: 14px;
-        background-color: lightgreen;
-    }
-
-    div.Conocenos, div.Servicios, div.Clientes {
-        padding-left: 50px;
-    }
-
-    div.Conocenos p, div.Servicios p {
-        width: 800px;
-    }
-
     header ul {
-        margin-left: -50px;
-        margin-right: 530px;
+        margin-left: 0px;
+        margin-right: 200px;
     }
-
-    header ul li a {
-        font-size: 10px;
+    div.Footer div.parrafo1p p.parrafo1{
+      margin-left: 300px;
+      margin-top: -80px;
     }
-}
-
-/* Estilos para pantallas muy pequeñas (menos de 800px de ancho) */
-@media (max-width: 799px) {
-    body {
-        font-size: 12px;
-        background-color: lightgray;
+    
+    div.Footer div.parrafo2p p.parrafo2{
+        margin-left: 700px; 
+        margin-bottom: 10px;
     }
-
-    div.Conocenos, div.Servicios, div.Clientes {
-        padding-left: 20px;
-    }
-
-    div.Conocenos p, div.Servicios p {
-        width: 100%;
-    }
-
+  }
+  
+  /* Estilos para pantallas muy pequeñas (menos de 800px de ancho) */
+  @media (max-width: 799px) {
     header ul {
         margin-left: 0;
         flex-direction: column;
     }
-
-    header ul li a {
-        font-size: 12px;
-        margin: 10px 0;
-    }
-
-    div.Clientes ul {
-        padding-left: 0;
-    }
-}
+  }
