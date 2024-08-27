@@ -4,119 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTL</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="StyleConocenos.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:wght@400;435;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-      *{
-        margin: 0;
-        padding: 0;
-      }
-      header#shadow{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        transition: 0.7s;
-        padding: 30px 20px;
-        z-index: 10;
-        width: 100%;
-        height: 50px;
-        background-color: #fff;
-      }
-      header#shadow .logo{
-        position: relative;
-        color: #fff;
-        font-weight: bold;
-        font-size: 2em;
-        letter-spacing: 2px;
-        transition: 1.5s;
-        text-decoration: none;
-      }
-      nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      header#shadow ul{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 500px;
-        margin-top: -20px;
-        
-      }
-
-      header#shadow ul li{
-        list-style: none;
-      }
-
-      header#shadow ul li a{
-        position: relative;
-        font-family: Open Sans, sans-serif;
-        margin: 0 15px;
-        text-decoration: none;
-        color: #fff;
-        letter-spacing: 2px;
-        font-weight: 600;
-        transition: 0.7s;
-      }
-
-  @media (min-width: 1200px) and (max-width: 1300px) {
-    header#shadow ul {
-    margin-left: 0px;
-    margin-right: 10px;
-}
-
-div.Footer div.parrafo1p img{
-  width: 130px;
-  height: 85%;
-}
-
-div.Footer div.parrafo1p p.parrafo1{
-  margin-left: 350px;
-  margin-top: -95px;
-}
-
-div.Footer div.parrafo2p p.parrafo2{
-    margin-left: 750px; 
-    margin-bottom: 20px;
-}
-}
-
-/* Estilos para pantallas pequeñas (entre 800px y 1200px de ancho) */
-@media (min-width: 800px) and (max-width: 1199px) {
-  header#shadow ul {
-      margin-left: 0px;
-      margin-right: 200px;
-  }
-  div.Footer div.parrafo1p p.parrafo1{
-    margin-left: 300px;
-    margin-top: -80px;
-  }
-  
-  div.Footer div.parrafo2p p.parrafo2{
-      margin-left: 700px; 
-      margin-bottom: 10px;
-  }
-}
-
-/* Estilos para pantallas muy pequeñas (menos de 800px de ancho) */
-@media (max-width: 799px) {
-  header#shadow ul {
-      margin-left: 0;
-      flex-direction: column;
-  }
-}
-      </style>
+    <!-- Inclusión del Ícono de Favoritos -->
+    <link rel="icon" href="img/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 <body style=" font-family: Open Sans, sans-serif;">
   <header class="shadow p-3.5 mb-6 bg-body-tertiary rounded" id="shadow">
@@ -132,15 +29,15 @@ div.Footer div.parrafo2p p.parrafo2{
 		</nav>
   </header>
 <div>
-    <div class="row" style="padding-left: 80px;padding-right: 80px;">
+    <div class="row" id="QuienesSomos">
         <img src="quienes somos.png" alt="">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="Somos">
             <div class="col-auto">
-                <button class="btn btn-primary" style="border-radius: 20px 80px;"><h3 class="font-muli-title title-section text-center px-4 py-2 px-md-4 p-md-2 ">Nuestra empresa</h3></button>
+                <button class="btn btn-primary"><h3 class="font-muli-title title-section text-center px-4 py-2 px-md-4 p-md-2 ">Nuestra empresa</h3></button>
             </div>
         </div>
- <h2 style="color: #4f5458;margin-top: 30px;" >Misión</h2>
- <p style="color:  #606365;margin-top: 10px;">Somos una empresa, que, por la 
+ <h2>Misión</h2>
+ <p>Somos una empresa, que, por la 
     experiencia y empoderamiento 
     de su equipo, brinda confianza 
     en el manejo financiero integral 
@@ -149,8 +46,8 @@ div.Footer div.parrafo2p p.parrafo2{
     la socialización del conocimiento 
     refleja su mejor valor agregado al 
     mercado y entorno de negocios.</p>
-    <h2 style="color: #4f5458;margin-top: 30px;" >Visión</h2>
-    <p style="color:  #606365;margin-top: 10px;">En 2026, seremos la empresa de la 
+    <h2>Visión</h2>
+    <p>En 2026, seremos la empresa de la 
     región caribe, con el mejor equipo 
     de profesionales, acompañando 
     a nuestros clientes, donde el 
@@ -161,7 +58,7 @@ div.Footer div.parrafo2p p.parrafo2{
     nuestra herramienta primaria del 
     crecimiento institucional.</p>
 
-    <div class="shadow-lg p-3 bg-body-tertiary rounded" style="width: 200px;height: 290px;float: left;margin: 30px;margin-right: 20px;">
+    <div class="shadow-lg p-3 bg-body-tertiary rounded" id="tarjeta1">
         <img src="usuario.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-center">Jose Luna
@@ -169,7 +66,7 @@ div.Footer div.parrafo2p p.parrafo2{
             <strong>Gerente General</strong></p>
         </div>
       </div>
-      <div class="shadow-lg p-3 bg-body-tertiary rounded" style="width: 200px;height: 290px;float: left;margin: 30px;">
+      <div class="shadow-lg p-3 bg-body-tertiary rounded"  id="tarjetas">
         <img src="usuario.jpeg" class="card-img-top" alt="...">
         <div class="card-text text-center">
       <p class="card-text">David Barraza 
@@ -177,7 +74,7 @@ div.Footer div.parrafo2p p.parrafo2{
             <strong>Coordinador de Proyectos</strong></p>
     </div>
   </div>
-  <div class="shadow-lg p-3 bg-body-tertiary rounded" style="width: 200px;height: 290px;float: left;margin: 30px;">
+  <div class="shadow-lg p-3 bg-body-tertiary rounded" id="tarjetas">
     <img src="usuario.jpeg" class="card-img-top" alt="...">
     <div class="card-text text-center">
       <p class="card-text">Jose Truyol 
@@ -187,7 +84,7 @@ div.Footer div.parrafo2p p.parrafo2{
     </div>
   </div>
 
-  <div class="shadow-lg p-3 bg-body-tertiary rounded" style="width: 200px;height: 290px;float: left;margin: 30px;">
+  <div class="shadow-lg p-3 bg-body-tertiary rounded" id="tarjetas"
     <img src="usuario.jpeg" class="card-img-top" alt="...">
     <div class="card-text text-center">
       <p class="card-text">Hector Barraza
@@ -196,7 +93,7 @@ div.Footer div.parrafo2p p.parrafo2{
         </p>
     </div>
   </div>
-  <div class="shadow-lg p-3 bg-body-tertiary rounded" style="width: 200px;height: 290px;float: left;margin: 30px;">
+  <div class="shadow-lg p-3 bg-body-tertiary rounded" id="tarjetas">
     <img src="usuario.jpeg" class="card-img-top" alt="...">
     <div class="card-text text-center">
       <p class="card-text">Daniel Berrio 
@@ -210,7 +107,11 @@ div.Footer div.parrafo2p p.parrafo2{
   
 </div>
 
-
+<aside id="boton-whatsapp">
+  <a href="https://wa.me/573017684434" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+  </a>
+</aside>
 
 
 <div style="background-color: #2471B8;" class="Footer">
