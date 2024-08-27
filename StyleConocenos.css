@@ -93,7 +93,7 @@ div.Footer div.parrafo1p p.parrafo1{
     color: #ffffff;
     font-size: 12px;
     margin-left: 450px;
-    margin-top: -165px;
+    margin-top: -155px;
 }
 
 div.Footer div.parrafo2p p.parrafo2{
@@ -109,6 +109,51 @@ aside#boton-whatsapp a { top: -38px;right:100px ;width: 80px; height: 80px; marg
 aside#boton-whatsapp a:hover { background: #0fc3d09f; transition: all 0.3s ease-in; }
 aside#boton-whatsapp i { font-size: 60px;}
 
+  /* Estilos para pantallas medianas (entre 1800px y 2500px de ancho) */
+  @media (min-width: 1800px) and (max-width: 2500px) {
+    header#shadow ul {
+      margin-left: 0px;
+      margin-right: 10px;
+  }
+  div.Footer div.parrafo1p img{
+    width: 130px;
+    height: 85%;
+  }
+  
+  div.Footer div.parrafo1p p.parrafo1{
+    margin-left: 550px;
+    margin-top: -85px;
+  }
+  
+  div.Footer div.parrafo2p p.parrafo2{
+      margin-left: 1200px; 
+      margin-bottom: 20px;
+  }
+
+  div#tarjeta1{
+  margin-left: 250px;
+  }
+
+  }
+
+  /* Estilos para pantallas medianas (entre 1500px y 1800px de ancho) */
+@media (min-width: 1500px) and (max-width: 1800px) {
+  div.Footer div.parrafo1p img{
+    width: 130px;
+    height: 85%;
+  }
+  
+  div.Footer div.parrafo1p p.parrafo1{
+    margin-left: 400px;
+    margin-top: -85px;
+  }
+  
+  div.Footer div.parrafo2p p.parrafo2{
+      margin-left: 950px; 
+      margin-bottom: 20px;
+  }
+}
+
 /* Estilos para pantallas medianas (entre 1200px y 1600px de ancho) */
 @media (min-width: 1200px) and (max-width: 1500px) {
   header#shadow ul {
@@ -123,7 +168,7 @@ div.Footer div.parrafo1p img{
 
 div.Footer div.parrafo1p p.parrafo1{
   margin-left: 350px;
-  margin-top: -95px;
+  margin-top: -85px;
 }
 
 div.Footer div.parrafo2p p.parrafo2{
